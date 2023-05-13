@@ -10,7 +10,7 @@ function App() {
     const user = { name, email };
     console.log(user);
 
-    // send data to server start
+    // send data to server side start
     fetch("http://localhost:5000/users", {
       method: "POST",
       headers: {
@@ -26,7 +26,7 @@ function App() {
           form.reset;
         }
       });
-    // send data to server end
+    // send data to server side end
   };
   return (
     <>
